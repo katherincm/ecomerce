@@ -1,0 +1,145 @@
+* {
+    font-family: sans-serif, Times, serif;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Header */
+header {
+    background-color: gray;
+    display: flex;
+}
+
+header > img {
+    width: 50px;
+}
+
+header > div {
+    padding: 5px;
+    margin: auto;
+}
+
+.input-container {
+    display:inline-block;
+    position: relative;
+}
+
+.input-container > i {
+    position: absolute;
+    padding: 4px;
+    font-size:20px;
+}
+
+.final {
+    right: 10px;
+}
+
+header input {
+    border-radius: 50px;
+    border: 0px;
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* Header */
+
+/* Slides */
+.slide-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slide > img {
+    width: 100%;
+}
+/* Slides */
+
+/* Novidades */
+.novidades {
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.novidades > h2 {
+    font-weight: bold;
+}
+/* Novidades */
+
+/* Populares */
+.populares {
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.populares > h2 {
+    font-weight: bold;
+}
+
+.categorias-populares {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.categorias-populares > div {
+    margin: auto;
+}
+
+.categorias-populares a {
+    color: black;
+    text-decoration: none;
+}
+/* Populares */
+
+/* Card */
+.card {
+    float: left;
+    width: 210px;
+    text-align: center;
+}
+
+.card > img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* Card */
+
+/* Footer */
+footer {
+    height: 200px;
+    bottom: 0;
+    display: flex;
+}
+
+footer > div {
+   margin-left: 20px;
+   margin-right: 40px;
+}
+
+footer ul {
+    margin-top: 5px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* Footer */
